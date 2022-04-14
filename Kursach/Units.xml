@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+	<race name="Human">
+		<warlord name="Defolt">
+			<moveRange>5</moveRange>
+			<defoltLeftCadr>..\..\Resources\Humans\Warlord\defoltLeftCadr.png</defoltLeftCadr>
+			<defoltRightCadr>..\..\Resources\Humans\Warlord\defoltRightCadr.png</defoltRightCadr>
+			<defoltUpCadr>..\..\Resources\Humans\Warlord\defoltUpCadr.png</defoltUpCadr>
+			<defoltDownCadr>..\..\Resources\Humans\Warlord\defoltDownCadr.png</defoltDownCadr>
+			<moveLeft>..\..\Resources\Humans\Warlord\moveLeftAnimation.png</moveLeft>
+			<moveRight>..\..\Resources\Humans\Warlord\moveRightAnimation.png</moveRight>
+			<moveUp>..\..\Resources\Humans\Warlord\moveUpAnimation.png</moveUp>
+			<moveDown>..\..\Resources\Humans\Warlord\moveDownAnimation.png</moveDown>
+		</warlord>
+		<units>				
+			<type name="SwordMan">
+				<name>Мечник</name>
+				<HP>100</HP>
+				<attackPower>100</attackPower>
+				<moveRange>3</moveRange>
+				<attackRange>1</attackRange>
+				<defoltCadr>..\..\Resources\Humans\SwordMan\SwordManDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Humans\SwordMan\SwordManLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Humans\SwordMan\SwordManAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Humans\SwordMan\SwordManLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Humans\SwordMan\SwordManWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Humans\SwordMan\SwordManLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Humans\SwordMan\SwordManDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Humans\SwordMan\SwordManLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Humans\SwordMan\SwordManUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Humans\SwordMan\SwordManLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+			<type name="Archer">
+				<name>Арбалетчик</name>
+				<HP>50</HP>
+				<attackPower>100</attackPower>
+				<moveRange>2</moveRange>
+				<attackRange>14</attackRange>
+				<defoltCadr>..\..\Resources\Humans\Archer\ArcherDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Humans\Archer\ArcherLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Humans\Archer\ArcherAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Humans\Archer\ArcherLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Humans\Archer\ArcherWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Humans\Archer\ArcherLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Humans\Archer\ArcherDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Humans\Archer\ArcherLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Humans\Archer\ArcherUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Humans\Archer\ArcherLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+			<type name="Healer">
+				<name>Монах</name>
+				<HP>80</HP>
+				<attackPower>30</attackPower>
+				<moveRange>5</moveRange>
+				<attackRange>3</attackRange>
+				<defoltCadr>..\..\Resources\Humans\Monk\MonkDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Humans\Monk\MonkLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Humans\Monk\MonkAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Humans\Monk\MonkLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Humans\Monk\MonkWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Humans\Monk\MonkLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Humans\Monk\MonkDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Humans\Monk\MonkLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Humans\Monk\MonkUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Humans\Monk\MonkLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+		</units>
+	</race>
+	<race name="Necromant">
+		<warlord name="Defolt">
+			<moveRange>5</moveRange>
+		<defoltLeftCadr>..\..\Resources\Necromants\Warlord\defoltLeftCadr.png</defoltLeftCadr>
+			<defoltRightCadr>..\..\Resources\Necromants\Warlord\defoltRightCadr.png</defoltRightCadr>
+			<defoltUpCadr>..\..\Resources\Necromants\Warlord\defoltUpCadr.png</defoltUpCadr>
+			<defoltDownCadr>..\..\Resources\Necromants\Warlord\defoltDownCadr.png</defoltDownCadr>
+			<moveLeft>..\..\Resources\Necromants\Warlord\moveLeftAnimation.png</moveLeft>
+			<moveRight>..\..\Resources\Necromants\Warlord\moveRightAnimation.png</moveRight>
+			<moveUp>..\..\Resources\Necromants\Warlord\moveUpAnimation.png</moveUp>
+			<moveDown>..\..\Resources\Necromants\Warlord\moveDownAnimation.png</moveDown>
+		</warlord>
+		<units>
+			<type name="SwordMan">
+				<name>Скелет</name>
+				<HP>50</HP>
+				<attackPower>30</attackPower>
+				<moveRange>3</moveRange>
+				<attackRange>1</attackRange>
+				<defoltCadr>..\..\Resources\Necromants\Sceleton\SceletonDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Necromants\Sceleton\SceletonLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Necromants\Sceleton\SceletonAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Necromants\Sceleton\SceletonLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Necromants\Sceleton\SceletonWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Necromants\Sceleton\SceletonLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Necromants\Sceleton\SceletonDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Necromants\Sceleton\SceletonLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Necromants\Sceleton\SceletonUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Necromants\Sceleton\SceletonLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+			<type name="Archer">
+				<name>Лич</name>
+				<HP>20</HP>
+				<attackPower>150</attackPower>
+				<moveRange>4</moveRange>
+				<attackRange>12</attackRange>
+				<defoltCadr>..\..\Resources\Necromants\Litch\LitchDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Necromants\Litch\LitchLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Necromants\Litch\LitchAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Necromants\Litch\LitchLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Necromants\Litch\LitchWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Necromants\Litch\LitchLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Necromants\Litch\LitchDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Necromants\Litch\LitchLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Necromants\Litch\LitchUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Necromants\Litch\LitchLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+			<type name="Healer">
+				<name>Вампир</name>
+				<HP>100</HP>
+				<attackPower>50</attackPower>
+				<moveRange>8</moveRange>
+				<attackRange>1</attackRange>
+				<defoltCadr>..\..\Resources\Necromants\Vampire\VampireDefolt.png</defoltCadr>
+				<defoltLeftCadr>..\..\Resources\Necromants\Vampire\VampireLeftDefolt.png</defoltLeftCadr>
+				<attackSpritePath>..\..\Resources\Necromants\Vampire\VampireAttack.png</attackSpritePath>
+				<attackLeftSpritePath>..\..\Resources\Necromants\Vampire\VampireLeftAttack.png</attackLeftSpritePath>
+				<moveSpritePath>..\..\Resources\Necromants\Vampire\VampireWalk.png</moveSpritePath>
+				<moveLeftSpritePath>..\..\Resources\Necromants\Vampire\VampireLeftWalk.png</moveLeftSpritePath>
+				<deathSpritePath>..\..\Resources\Necromants\Vampire\VampireDeath.png</deathSpritePath>
+				<deathLeftSpritePath>..\..\Resources\Necromants\Vampire\VampireLeftDeath.png</deathLeftSpritePath>
+				<underFireSpritePath>..\..\Resources\Necromants\Vampire\VampireUnderFire.png</underFireSpritePath>
+				<underFireLeftSpritePath>..\..\Resources\Necromants\Vampire\VampireLeftUnderFire.png</underFireLeftSpritePath>
+			</type>
+		</units>
+	</race>
+</objects>
